@@ -40,7 +40,7 @@
    height: 150vh;
 }
 .container1bg{
-    width: 115.6%;
+    width: 117%;
     height: 150vh;
 }
 #container1 h1{
@@ -130,11 +130,11 @@ button a{
 }
 
 .container3bg{
-    width: 115.6%;
+    width: 117%;
 }
 
 #container3 {
-    height: 280vh;
+    height: 180vh;
     padding: 2em;
     font-size: 27px;
 }
@@ -239,7 +239,7 @@ button a{
 
 
 .container5bg {
-    width:115.6%;
+    width:117%;
    
 }
 
@@ -269,8 +269,8 @@ button a{
 }
 
 .footer{
-    height: 69vh;
-     width: 115.6%;
+    height: 49vh;
+     width: 117%;
 }
 
 
