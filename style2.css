@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px;);
+    opacity: 1
+}
+
+.navbar{
+    background: linear-gradient(to right,#131316, #10212b);
+    width: 100%
+}
+
+.navbar img{
+    max-width: 400px;
+    max-height:40px;
+}
+
+
+
+.nav-item{
+    padding: 1em;    
+}
+
+.nav-item a{
+    color: #bbb;
+}
+
+
+#container1{
+   height: 150vh;
+}
+.container1bg{
+    width: 115.6%;
+    height: 150vh;
+}
+#container1 h1{
+    padding-top: 4em;
+    text-align: center;
+    font-size: 60px;
+}
+
+#container1 img{
+    max-height: 300px;
+    max-width: 400px;
+}
+
+#elongate{
+    position: relative;
+    top:50px;
+    left: 10px;
+}
+
+#elongate2{
+    width: 100px;
+    display: none;
+    position: relative;
+    top:00px;
+    left: 0px;
+}
+
+
+.logo:nth-child(2){
+    transition-delay: 200ms;
+    transform: rotate(0deg);
+    position: relative;
+    top:-160px;
+    right: 60px;
+    
+}
+.logo:nth-child(3){
+    transition-delay: 400ms;
+    transform: rotate(0deg);
+}
+.logo:nth-child(4){
+    transition-delay: 600ms;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#container2 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 2em;
+}
+
+#container2 p{
+    padding-left: 1em;
+    font-size: 28px;
+    width: 115.6%;
+}
+
+#container2 button{
+    margin-top: 3em;
+    font-size: 21px;
+    width: 40%;
+    height: 50px;
+    margin-left: 20px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#container2 li{
+    width: 20%;
+    font-size: 30px;
+}
+
+.container3bg{
+    width: 115.6%;
+}
+
+#container3 {
+    height: 280vh;
+    padding: 2em;
+    font-size: 27px;
+}
+
+#container4{
+    margin-top: 100px;
+}
+
+
+
+
+#section1 img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 1.0em;
+}
+#section1 h3{
+    padding-top: 2.5em;
+    font-size: 35px;
+    padding-left: 1.5em;
+}
+
+#section1 h4{
+    padding-left: 1.8em;
+    font-size: 30px;
+}
+#section1 p{
+    width: 109%;
+    padding-left: 2em;
+    font-size: 27px;
+}
+
+#section2 {
+    margin-top: 180px;
+    width: 119%;
+    margin-left: -39px;
+}
+#section2 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 4em;
+}
+#section2 h3{
+    font-size: 35px
+}
+#section2 p{
+    font-size: 26px
+}
+
+#section3 {
+    margin-top: 100px;
+    width: 123.6%;
+    height: 170vh;
+}
+
+#section3 img{
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 130px;
+    padding-left: 0px;
+}
+
+#section3 h3{
+    padding-top: 1em;
+    font-size: 35px;
+    padding-left: 1em;
+}
+
+
+#section3 p{
+    width: 100%;
+    padding-left:1em;
+    font-size: 26px;
+}
+
+
+
+
+#section4 {
+    margin-top: 0px;
+    width: 123.6%;
+    height: 210vh;
+}
+
+#section4 img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: -100px;
+    padding-left: 1em;
+}
+#section4 h3{
+    padding-top: 1em;
+    font-size: 35px;
+    padding-left: 1em;
+}
+
+#section4 p{
+    width: 100%;
+    padding-left:1em;
+    font-size: 26px;
+}
+
+
+.container5bg {
+    width:115.6%;
+   
+}
+
+#container5 i{
+    font-size: 33px;
+}
+
+#container5 li{
+    font-size: 22px;
+}
+
+#container5 p{
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+
+#container5 img{
+    padding-top: 100px;
+    padding-left: 3em;
+    max-height: 90%;
+    max-width: 100%;
+}
+
+.container6 h4{
+    padding-top: 5em;
+    font-size: 30px;
+}
+
+.footer{
+    height: 69vh;
+     width: 115.6%;
+}
+
+
+.footer p{
+    padding-top: 4em;
+    font-size: 16px;
+    color: #bbb;
+}
+
+.footer button{
+    margin-top: 1em;
+    float: right;
+}
+
+.footer ul{
+    margin-left:60px;
+    margin-top: 40px;
+}
+
+
+.footer li{
+    width: 40%;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
